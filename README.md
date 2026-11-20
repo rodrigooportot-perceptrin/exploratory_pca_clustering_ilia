@@ -55,7 +55,8 @@ maps them to names. Dimensions: **FH** enabling factors, **GOB** governance, **I
 
 * **Pruning:** Spearman correlation on real data only, pair by pair. Subindicators are grouped by complete linkage so that every pair in a group
   has |ρ| ≥ 0.9, and one per group is kept, preferring the most complete. One list is applied to both A and I.
-* **PCA** on z-scores. Horn's parallel analysis (1,000 column permutations, 95th percentile) decides how many components are above noise.
+* **PCA** on z-scores. Horn's parallel analysis (1,000 column permutations, 95th percentile) decides how many components are above noise;
+  see [How many components are real?](#how-many-components-are-real-parallel-analysis).
 * **Clustering** on the retained component scores. **Ward** hierarchical clustering is the main method, with **k-means** as a check
   (Adjusted Rand Index, ARI). k is chosen by silhouette among solutions with no single-country cluster. The **gap statistic**, including
   k = 1, tests whether clusters exist at all.
@@ -131,6 +132,59 @@ The full lists are in [`results/pruning/`](results/pruning/).
 **PC1 is each country's overall level.** About 95% of subindicators load positively on it, and its scores correlate 0.997–0.998 with
 the country's mean z-score in every configuration. Ordering countries on PC1 is essentially ranking them by their average.
 **Only two components stand out from noise**: after PC2, components are indistinguishable from what shuffled data produce with 20 countries.
+
+#### How many components are real? Parallel analysis
+
+**What an eigenvalue measures.** Every subindicator is standardized, so each contributes about one unit of variance; A-full has about 90
+in total (86 subindicators, slightly more because of the n − 1 convention). A component's **eigenvalue** is how many subindicators' worth
+of that variance it captures. Equivalently, it is the variance of the countries' scores along that axis, or roughly the sum of its squared
+loadings. The eigenvalues add up to the total, so eigenvalue / total is the share of variance explained.
+
+**Why a benchmark is needed.** With 20 countries, two unrelated subindicators still correlate at about ±0.23 by chance. With 86–126
+subindicators there are thousands of such chance correlations, and PCA lines them up into components that look substantial. The rule
+"keep eigenvalues above 1" fails badly here: random-matrix theory puts the largest pure-noise eigenvalue near (1 + √(p/n))², which is
+about 9.5 for A-full and 12.3 for I-full. The problem comes from the ratio of subindicators to countries, and it is severe when that ratio is
+large, as here.
+
+**Why shuffle.** Parallel analysis builds the "nothing is related" case from the data themselves. Each subindicator's column is shuffled
+independently, so its 20 values are reassigned to countries at random. Every column keeps its exact distribution, including skew, ties,
+the 0–100 bounds and the categorical 0/50/100 governance flags, but the link between columns, which country is high on what, is destroyed.
+The shuffled data differ from the real data in one respect only, so a real component that beats them can only reflect genuine relationships
+between subindicators. This permutation version is preferred over Horn's original random-normal benchmark because many columns here are
+far from normal.
+
+**Procedure.**
+
+1. Shuffle every column independently, run PCA and record the eigenvalues, sorted.
+2. Repeat 1,000 times. For each position (PC1, PC2, …) this gives a distribution of noise eigenvalues: `null_mean` is its average, the
+   typical size of that component when nothing is related, and `null_q95` the value 95% of shuffles stay below.
+3. Compare each real component with the noise **at the same position**, and keep it while it beats `null_q95`.
+4. Stop at the first failure, so only the leading run is kept. At least two components are always used for clustering, so that there is a plane
+   to work on; this never had to be applied.
+
+| A-full | level: eigenvalue | level: noise mean | level: noise 95th | profile: eigenvalue | profile: noise 95th |
+|---|---:|---:|---:|---:|---:|
+| PC1 | 35.8 | 9.2 | 10.1 | 10.5 | 7.5 |
+| PC2 | 10.5 | 8.3 | 8.9 | 7.5 | 6.4 |
+| PC3 | 6.8 | 7.6 | 8.1 | 6.6 | 5.7 |
+| PC4 | 6.0 | 7.0 | 7.4 | 5.5 | 5.1 |
+
+Pure noise alone produces a PC1 of about 9, around 10% of the variance, so a "PC1 explains 10%" would mean nothing here. The real level
+PC1 is 3.5 times that. The full tables are in `results/<configuration>_<view>/parallel_analysis.csv`.
+
+**Profile view.** Removing each country's mean takes out about a third of the variance (A-full: 90.5 → 61.3), and leaves every country's
+row averaging exactly zero. The null has to obey the same two facts. So the profile matrix is shuffled, and each shuffled matrix is
+re-centred per country. Shuffling the raw scores and removing the level afterwards would keep the variance the real profile data have lost,
+and would reject nearly every profile component. Four profile components pass, by narrower margins than in the level view.
+
+**Caveats.**
+
+* After a dominant PC1 the test is **conservative**. The real PC1 uses up variance that is then missing from PC3 and later components, while
+  the noise components are not reduced the same way. Level-view PC3 and PC4 may hold some signal (I-full: 9.7 and 9.3 against 10.9 and 10.3),
+  so "two components" is a cautious count.
+* Shuffling treats the 20 countries as interchangeable within each column, which is reasonable here.
+* Each loading is a correlation over 20 countries and can move by about ±0.2 by chance, so blocks of subindicators pointing the same way
+  are more trustworthy than any single arrow.
 
 ![Biplot, A-full level](figures/03_A-full_level_biplot.png)
 
