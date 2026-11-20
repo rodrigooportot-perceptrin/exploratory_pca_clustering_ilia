@@ -154,6 +154,14 @@ The second axis is **research depth** (consistent AI research), which pulls Braz
 
 ![Clusters on the profile map, A-full](figures/04_A-full_profile_cluster_map.png)
 
+With the imputed data (I-full), PC1 is the same strategy-versus-connectivity axis, with its sign flipped (strategy now points right).
+**PC2 is different.** It sets digital government (IDA.ADO.07) and data subindicators (FH.DAT) against software relevance (IDA.IDI.11),
+researcher productivity (IDA.INV.03) and English proficiency (FH.TAL.04, .05). Research depth (IDA.INV.07) moves to PC3.
+Cuba stands far out in the strategy/PC2 corner. This is the low PC2 congruence (0.52) reported in section 5: the 40 subindicators
+that exist only in I change the second axis of the profile view, while the first axis holds.
+
+![Clusters on the profile map, I-full](figures/04_I-full_profile_cluster_map.png)
+
 ### 4. Clusters
 
 | configuration | k chosen | k by gap rule | Ward silhouette | mean Jaccard | sizes |
