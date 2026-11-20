@@ -150,7 +150,7 @@ The imputed data give the same structure; the sign of PC2 is arbitrary and flips
 
 **Profile view.** With the overall level removed, the variance spreads out (PC1 15–17%, 3–4 components above noise). The main axis is again
 strategy against capabilities, here basic connectivity and its affordability: 3G coverage, fixed latency, and the cost of fixed and mobile broadband.
-The second axis is **research depth** (consistent AI research), which pulls Brazil, Chile and Uruguay away from the rest.
+In the real data (A-full) the second axis is **research depth** (consistent AI research), which pulls Brazil, Chile and Uruguay away from the rest.
 
 ![Clusters on the profile map, A-full](figures/04_A-full_profile_cluster_map.png)
 
