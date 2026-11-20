@@ -89,7 +89,7 @@ def run(config: str, mode: str, k: int | None = None, bootstrap: bool = True) ->
     X = load_processed(config)
     Z = prepare(X, mode)
     res = pc.run_pca(Z)
-    pa = pc.parallel_analysis(Z, n_iter=N_PERM)
+    pa = pc.parallel_analysis(Z, n_iter=N_PERM, level_removed=(mode == "profile"))
     k_pc = pc.n_retained(pa)
     S = res.scores.iloc[:, :k_pc]
     ev = cl.evaluate_k(S, KS)

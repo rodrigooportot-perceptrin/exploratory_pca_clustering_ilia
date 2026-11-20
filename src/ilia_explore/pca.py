@@ -74,13 +74,22 @@ def run_pca(Z: pd.DataFrame) -> PCAResult:
 
 
 def parallel_analysis(
-    Z: pd.DataFrame, n_iter: int = 1000, quantile: float = 0.95, seed: int = 0
+    Z: pd.DataFrame, n_iter: int = 1000, quantile: float = 0.95, seed: int = 0,
+    level_removed: bool = False,
 ) -> pd.DataFrame:
     """Horn's parallel analysis by permuting each column independently.
 
     Permuting keeps every subindicator's distribution (including categorical
     ones) but destroys correlations. A component is retained while its
     eigenvalue exceeds the chosen quantile of the permuted eigenvalues.
+
+    ``Z`` is the matrix that is analysed. For the profile view pass
+    ``level_removed=True``: each permuted matrix then has its row means
+    removed again, so the null shares the profile constraint (every country's
+    row averages zero) as well as the profile matrix's total variance.
+    Permuting the standardized matrix and removing the level afterwards would
+    not do: the null would keep the variance that removing the level takes
+    out of the real data, and every profile component would look like noise.
     """
     rng = np.random.default_rng(seed)
     n, p = Z.shape
@@ -89,10 +98,12 @@ def parallel_analysis(
     null = np.empty((n_iter, k))
     for b in range(n_iter):
         P = np.column_stack([rng.permutation(A[:, j]) for j in range(p)])
+        if level_removed:
+            P = P - P.mean(axis=1, keepdims=True)
         P = P - P.mean(axis=0)
         s = np.linalg.svd(P, compute_uv=False)[:k]
         null[b] = s**2 / (n - 1)
-    real = run_pca(Z).eigenvalues.to_numpy()
+    real = run_pca(Z).eigenvalues.to_numpy()[:k]
     names = [f"PC{i + 1}" for i in range(k)]
     out = pd.DataFrame({
         "eigenvalue": real,
