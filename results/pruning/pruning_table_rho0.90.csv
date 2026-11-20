@@ -1,0 +1,127 @@
+code,group,group_size,representative,kept,min_abs_rho_in_group,mean_abs_rho_outside,dim_code,subdim_code,subindicador,n_observed
+FH.INF.01,1,1,FH.INF.01,True,,0.41122008393099246,FH,INF,Cobertura 5G,19
+FH.INF.02,2,1,FH.INF.02,True,,0.17406608832157044,FH,INF,Cobertura Redes Móviles (%) Mínimo 3G,20
+FH.INF.03,3,1,FH.INF.03,True,,0.43539069795551383,FH,INF,Velocidad Descarga Móvil,15
+FH.INF.04,4,1,FH.INF.04,True,,0.4435994673861803,FH,INF,Velocidad de Descarga Banda Ancha Fija (Mbps),20
+FH.INF.05,5,1,FH.INF.05,True,,0.36967212321051773,FH,INF,Latencia Fija (ms),20
+FH.INF.06,6,1,FH.INF.06,True,,0.18968584001479935,FH,INF,Latencia Móvil (ms),15
+FH.INF.07,7,1,FH.INF.07,True,,0.38999858851320424,FH,INF,Suscripciones Activas de Banda Ancha Móvil (cada 100 personas),20
+FH.INF.08,8,1,FH.INF.08,True,,0.4115500961080863,FH,INF,Suscripciones Activas de Banda Ancha Fija (cada 100 personas),20
+FH.INF.09,9,1,FH.INF.09,True,,0.3629705155366902,FH,INF,Hogares con Acceso a Internet (%),20
+FH.INF.10,10,1,FH.INF.10,True,,0.4036052626779974,FH,INF,Población que usa Internet (%),20
+FH.INF.11,11,1,FH.INF.11,True,,0.4525411977628155,FH,INF,Mujeres que usan Internet (%),20
+FH.INF.12,12,1,FH.INF.12,True,,0.43660337794865905,FH,INF,Cesta Básica de Banda Ancha Fija (% de INB Percapita),20
+FH.INF.13,13,1,FH.INF.13,True,,0.5465431009087443,FH,INF,Cesta Básica de Banda Ancha Móvil (% de INB Percapita),20
+FH.INF.14,14,1,FH.INF.14,True,,0.346542346474735,FH,INF,Hogares que tienen Computadora (%),20
+FH.INF.15,15,1,FH.INF.15,True,,0.3853399070171239,FH,INF,Asequibilidad de Teléfono Inteligente,12
+FH.INF.16,16,1,FH.INF.16,True,,0.2184991429196849,FH,INF,Asequibilidad de Computador,13
+FH.INF.17,17,1,FH.INF.17,True,,0.14485937049871375,FH,INF,Adopción IPv6 (% usuarios),20
+FH.INF.18,18,4,FH.INF.19,False,0.9657657657657658,0.5064844530227168,FH,INF,Capacidad de GPUs,20
+FH.INF.19,18,4,FH.INF.19,True,0.9603603603603603,0.4879359995657944,FH,INF,Memoria de GPUs,20
+FH.INF.20,18,4,FH.INF.19,False,0.9585585585585585,0.4917527043082008,FH,INF,Número de GPUs,20
+FH.INF.21,18,4,FH.INF.19,False,0.9585585585585585,0.5142018776851635,FH,INF,Capacidad de CPUs,20
+FH.INF.22,19,1,FH.INF.22,True,,0.4793582529807509,FH,INF,Procesamiento y Almacenamiento de Datos (Nube),12
+FH.INF.23,20,1,FH.INF.23,True,,0.27722169472147856,FH,INF,Centro de Datos Certificados (Cantidad/M. hab.),20
+FH.INF.24,21,1,FH.INF.24,True,,0.5020825322507367,FH,INF,Servidores de Internet Seguros (por millón de habitantes),20
+FH.INF.25,22,1,FH.INF.25,True,,0.2703024692088704,FH,INF,IXP (Índice de interconexión relativa),18
+FH.INF.26,23,1,FH.INF.26,True,,0.4355540552229648,FH,INF,Canasta Básica de IA,19
+FH.DAT.01,24,2,FH.DAT.01,True,0.9112487100103199,0.44694762200092114,FH,DAT,Disponibilidad Barómetro de Datos,18
+FH.DAT.02,25,1,FH.DAT.02,True,,0.5177952751573022,FH,DAT,Capacidad Barómetro de Datos,18
+FH.DAT.03,24,2,FH.DAT.01,False,0.9112487100103199,0.4471484708797747,FH,DAT,Gobernanza Barómetro de Datos,18
+FH.DAT.04,26,1,FH.DAT.04,True,,0.3067983850207649,FH,DAT,SPI Uso de Datos,20
+FH.DAT.05,27,1,FH.DAT.05,True,,0.5245740373884541,FH,DAT,SPI Servicios de Datos,19
+FH.DAT.06,28,1,FH.DAT.06,True,,0.2303298648789801,FH,DAT,SPI Productos de Datos,20
+FH.DAT.07,29,1,FH.DAT.07,True,,0.48398847738085327,FH,DAT,SPI Fuentes de Datos,19
+FH.DAT.08,30,1,FH.DAT.08,True,,0.3731110452187745,FH,DAT,SPI Infraestructura de Datos,19
+FH.TAL.01,31,1,FH.TAL.01,True,,0.450954800568816,FH,TAL,Educación Temprana en Ciencias (Puntaje Promedio),14
+FH.TAL.02,32,1,FH.TAL.02,True,,0.36475344888253414,FH,TAL,Educación Temprana en Ciencias Niñas y Adolescentes (Puntaje Promedio),14
+FH.TAL.03,33,1,FH.TAL.03,True,,0.4819308733270836,FH,TAL,Educación Temprana en IA (Categórico),20
+FH.TAL.04,34,2,FH.TAL.04,True,0.964378032491486,0.21296359967084053,FH,TAL,Habilidad en Inglés (Puntaje),18
+FH.TAL.05,34,2,FH.TAL.04,False,0.964378032491486,0.2244250657503981,FH,TAL,Habilidad de Inglés en Mujeres (Puntaje),18
+FH.TAL.06,35,1,FH.TAL.06,True,,0.45531617913499794,FH,TAL,Concentración Habilidades IA Ingeniería,16
+FH.TAL.07,36,1,FH.TAL.07,True,,0.32634504471827264,FH,TAL,Concentración Habilidades IA Ingeniería Mujeres,15
+FH.TAL.08,37,1,FH.TAL.08,True,,0.3156859702636562,FH,TAL,Concentración Talento Ciberseguridad,15
+FH.TAL.09,38,1,FH.TAL.09,True,,0.47017129241997285,FH,TAL,Talento Disponible para Datacenters,16
+FH.TAL.10,39,1,FH.TAL.10,True,,0.2029879218210709,FH,TAL,Licenciados STEM (%),16
+FH.TAL.11,40,1,FH.TAL.11,True,,0.3586090960886731,FH,TAL,Demanda de Cursos de IA,20
+FH.TAL.12,41,2,FH.TAL.12,True,0.9513513513513514,0.5309407758835194,FH,TAL,Programas de Magíster en IA en Universidades Ranking QS (Cantidad por M. de hab.),20
+FH.TAL.13,42,1,FH.TAL.13,True,,0.42093748579390333,FH,TAL,Programas de PhD en IA en Universidades Ranking QS (Cantidad por M. de hab.),20
+FH.TAL.14,43,1,FH.TAL.14,True,,0.29781150308541643,FH,TAL,Programas de Magíster en IA en Universidades Acreditadas (Cantidad por M. de hab.),20
+FH.TAL.15,44,1,FH.TAL.15,True,,0.2602950625001454,FH,TAL,Programas de PhD en IA en Universidades Acreditadas (Cantidad por M. de hab.),20
+IDA.INV.01,45,2,IDA.INV.01,True,0.9699248120300752,0.5008842455578777,IDA,INV,Publicaciones en IA,20
+IDA.INV.02,45,2,IDA.INV.01,False,0.9699248120300752,0.5231780022856284,IDA,INV,Investigadores activos en IA,20
+IDA.INV.03,46,1,IDA.INV.03,True,,0.3473652883315014,IDA,INV,Productividad Investigadores en IA,20
+IDA.INV.04,47,1,IDA.INV.04,True,,0.18499937564814473,IDA,INV,Productividad Investigadoras en IA,20
+IDA.INV.05,48,1,IDA.INV.05,True,,0.40918275635345563,IDA,INV,Presencia de Centros de Investigación de IA,20
+IDA.INV.06,49,1,IDA.INV.06,True,,0.21224566747228196,IDA,INV,Proporción de Autoras en IA,20
+IDA.INV.07,50,2,IDA.INV.08,False,0.9849408760132031,0.4796629927861828,IDA,INV,Investigación Consistente en IA,20
+IDA.INV.08,50,2,IDA.INV.08,True,0.9849408760132031,0.47413208218780317,IDA,INV,Investigación Consistente Autoras en IA,20
+IDA.INV.09,51,1,IDA.INV.09,True,,0.4315295199725073,IDA,INV,Participación en Main Tracks,20
+IDA.INV.10,41,2,FH.TAL.12,False,0.9513513513513514,0.5567089565877663,IDA,INV,Participación en Side Tracks,20
+IDA.INV.11,52,1,IDA.INV.11,True,,0.3844246414489519,IDA,INV,Participación Autoras en Main Tracks,20
+IDA.INV.12,53,1,IDA.INV.12,True,,0.5143224785971876,IDA,INV,Participación Autoras en Side Tracks,20
+IDA.IDI.01,54,1,IDA.IDI.01,True,,0.3611325090353421,IDA,IDI,Número de Inversiones Privadas,18
+IDA.IDI.02,55,1,IDA.IDI.02,True,,0.41747128970404757,IDA,IDI,Valor Total Estimado Inversión Privada,18
+IDA.IDI.03,56,1,IDA.IDI.03,True,,0.4110071111810399,IDA,IDI,Empresas de IA,19
+IDA.IDI.04,57,1,IDA.IDI.04,True,,0.43286148751732,IDA,IDI,Empresas Unicornio,20
+IDA.IDI.05,58,1,IDA.IDI.05,True,,0.5410309744787775,IDA,IDI,Gasto en I+D en proporción al PIB,16
+IDA.IDI.06,59,1,IDA.IDI.06,True,,0.4607084778274148,IDA,IDI,Desarrollo de Aplicaciones,19
+IDA.IDI.07,60,1,IDA.IDI.07,True,,0.3574392718563961,IDA,IDI,Entorno Emprendedor,11
+IDA.IDI.08,61,1,IDA.IDI.08,True,,0.20107060091197815,IDA,IDI,Productividad Open Source,20
+IDA.IDI.09,62,1,IDA.IDI.09,True,,0.20337383808430054,IDA,IDI,Calidad Open Source,20
+IDA.IDI.10,63,1,IDA.IDI.10,True,,0.5447248956069353,IDA,IDI,Proporción de Desarrolladores de Software,20
+IDA.IDI.11,64,1,IDA.IDI.11,True,,0.17469628390773306,IDA,IDI,Relevancia de Producción de Software,20
+IDA.IDI.12,65,1,IDA.IDI.12,True,,0.5603878452616314,IDA,IDI,Cantidad de Familias de Patentes en IA,20
+IDA.IDI.13,66,1,IDA.IDI.13,True,,0.41365093150999904,IDA,IDI,Cantidad de Aplicantes de Patentes en IA,20
+IDA.IDI.14,67,1,IDA.IDI.14,True,,0.49387295910861095,IDA,IDI,Cantidad de Inventores de Patentes en IA,20
+IDA.ADO.01,68,1,IDA.ADO.01,True,,0.14822043908363433,IDA,ADO,Trabajadores en el Sector de Alta Tecnología,16
+IDA.ADO.02,69,2,IDA.ADO.03,False,0.958041958041958,0.396047929694027,IDA,ADO,Fabricación de Tecnología Mediana y Alta,12
+IDA.ADO.03,69,2,IDA.ADO.03,True,0.958041958041958,0.37196146996288865,IDA,ADO,Proporción del Valor Añadido de Fabricación de Tecnología Mediana y Alta en el Valor Añadido Total,12
+IDA.ADO.04,70,3,IDA.ADO.04,True,1.0,0.5229289994740174,IDA,ADO,Adopción IA en Grandes Empresas,20
+IDA.ADO.05,70,3,IDA.ADO.04,False,1.0,0.5229289994740174,IDA,ADO,Adopción IA en Medianas Empresas,20
+IDA.ADO.06,70,3,IDA.ADO.04,False,1.0,0.5229289994740174,IDA,ADO,Adopción IA en Pequeñas Empresas,20
+IDA.ADO.07,71,1,IDA.ADO.07,True,,0.5288604481799019,IDA,ADO,Gobierno Digital,20
+IDA.ADO.08,72,1,IDA.ADO.08,True,,0.25205497042612335,IDA,ADO,Uso de IA en Participación Ciudadana,20
+IDA.ADO.09,73,1,IDA.ADO.09,True,,0.3111800951704912,IDA,ADO,Desarrollo de IA para Participación Ciudadana,20
+IDA.ADO.10,74,1,IDA.ADO.10,True,,0.4191948093280929,IDA,ADO,Usuarios Activos de IAGen,14
+IDA.ADO.11,75,2,IDA.ADO.13,False,0.9947368421052631,0.4825319286482226,IDA,ADO,Usuarios Activos IA Generativa Web,19
+IDA.ADO.12,76,1,IDA.ADO.12,True,,0.3665548569492981,IDA,ADO,AI User Share Microsoft,19
+IDA.ADO.13,75,2,IDA.ADO.13,True,0.9947368421052631,0.46955839416299033,IDA,ADO,Intensidad Uso IA Web,19
+IDA.ADO.14,77,1,IDA.ADO.14,True,,0.5286558786667691,IDA,ADO,Intensidad Uso IA Avanzada Web,19
+GOB.VIS.01,78,3,GOB.VIS.08,False,0.9701425001453319,0.48996019717174444,GOB,VIS,Existencia de la Estrategia,20
+GOB.VIS.02,79,1,GOB.VIS.02,True,,0.3856721182994602,GOB,VIS,Antigüedad Estrategia de IA,20
+GOB.VIS.03,80,2,GOB.VIS.03,True,0.9393364366277243,0.42863785042465485,GOB,VIS,Mecanismos de Evaluación,20
+GOB.VIS.04,81,1,GOB.VIS.04,True,,0.35478163935479995,GOB,VIS,Presupuesto,20
+GOB.VIS.05,82,1,GOB.VIS.05,True,,0.4483794060478217,GOB,VIS,Hoja de Ruta,20
+GOB.VIS.06,83,5,GOB.VIS.06,True,0.982299486257503,0.42797280711359653,GOB,VIS,Ética y gobernanza de la IA,20
+GOB.VIS.07,80,2,GOB.VIS.03,False,0.9393364366277243,0.5181630434684793,GOB,VIS,Infraestructura y Tecnología de la IA,20
+GOB.VIS.08,78,3,GOB.VIS.08,True,0.9701425001453319,0.4895898932150132,GOB,VIS,Desarrollo de Capacidades,20
+GOB.VIS.09,83,5,GOB.VIS.06,False,0.982299486257503,0.42797280711359653,GOB,VIS,Datos,20
+GOB.VIS.10,83,5,GOB.VIS.06,False,0.982299486257503,0.42797280711359653,GOB,VIS,Gobierno Digital Gob,20
+GOB.VIS.11,83,5,GOB.VIS.06,False,0.982299486257503,0.42797280711359653,GOB,VIS,Industria y Emprendimiento,20
+GOB.VIS.12,83,5,GOB.VIS.06,False,0.982299486257503,0.46034375424250246,GOB,VIS,I+D,20
+GOB.VIS.13,84,1,GOB.VIS.13,True,,0.39248834874563016,GOB,VIS,Cooperación Regional e Internacional,20
+GOB.VIS.14,85,1,GOB.VIS.14,True,,0.38199237331224933,GOB,VIS,Perspectiva de Género,20
+GOB.VIS.15,86,1,GOB.VIS.15,True,,0.4324717720141867,GOB,VIS,Sostenibilidad de la Estrategia,20
+GOB.VIS.16,87,2,GOB.VIS.16,True,0.9618547050798321,0.49060317551906724,GOB,VIS,Participación ciudadana en la elaboración,20
+GOB.VIS.17,87,2,GOB.VIS.16,False,0.9618547050798321,0.5050888751759179,GOB,VIS,Metodología multistakeholder en la elaboración,20
+GOB.VIS.18,88,1,GOB.VIS.18,True,,0.3554992181040442,GOB,VIS,Metodología multistakeholder en la implementación,20
+GOB.VIS.19,89,1,GOB.VIS.19,True,,0.40842043703039177,GOB,VIS,Existencia de institucionalidad,20
+GOB.VIS.20,78,3,GOB.VIS.08,False,0.9701425001453319,0.4895898932150132,GOB,VIS,Mecanismos de coordinación interinstitucional,20
+GOB.VIN.01,90,1,GOB.VIN.01,True,,0.40535275670176085,GOB,VIN,Participación en comités ISO (Comité ISO/IEC JTC 1/SC 42),20
+GOB.VIN.02,91,1,GOB.VIN.02,True,,0.42662430632361364,GOB,VIN,Participación en comités ISO (ISO/IEC JTC 1/SC 27),20
+GOB.VIN.03,92,1,GOB.VIN.03,True,,0.5138651796521798,GOB,VIN,Partipación en acuerdos internacionales relacionados con IA,20
+GOB.REG.01,93,1,GOB.REG.01,True,,0.24581493304795024,GOB,REG,Iniciativa Legal,20
+GOB.REG.02,94,1,GOB.REG.02,True,,0.35880551481860057,GOB,REG,Existencia de una regulación de protección de datos personales,20
+GOB.REG.03,95,1,GOB.REG.03,True,,0.3752754035356326,GOB,REG,Existencia de institución encargada de la fiscalización de una regulación de protección de datos personales,20
+GOB.ETI.01,96,1,GOB.ETI.01,True,,0.28337632075612623,GOB,ETI,Medidas Legales de Ciberseguridad,20
+GOB.ETI.02,97,1,GOB.ETI.02,True,,0.48505415007085456,GOB,ETI,Medidas Técnicas de Ciberseguridad,20
+GOB.ETI.03,98,1,GOB.ETI.03,True,,0.2820721730477744,GOB,ETI,Medidas Organizativas de Ciberseguridad,20
+GOB.ETI.04,99,1,GOB.ETI.04,True,,0.3600308244076233,GOB,ETI,Desarrollo de Capacidades de Ciberseguridad,20
+GOB.ETI.05,100,1,GOB.ETI.05,True,,0.391308355223001,GOB,ETI,Cooperación en Ciberseguridad,20
+GOB.ETI.06,101,1,GOB.ETI.06,True,,0.36623808526100393,GOB,ETI,Protección de datos y privacidad GIRAI,17
+GOB.ETI.07,102,1,GOB.ETI.07,True,,0.40327601733498464,GOB,ETI,"Seguridad, Precisión y Confiabilidad GIRAI",17
+GOB.ETI.08,103,1,GOB.ETI.08,True,,0.22124730339481508,GOB,ETI,Centros de datos que cumplen con estándares de sustentabilidad,20
+GOB.ETI.09,104,1,GOB.ETI.09,True,,0.31611610212206337,GOB,ETI,Energía Limpia y Asequible,18
+GOB.ETI.10,105,1,GOB.ETI.10,True,,0.21580790148721557,GOB,ETI,Proporción de Energías Renovables no Convencionales en la matriz energética,20
+GOB.ETI.11,106,1,GOB.ETI.11,True,,0.46364218990128186,GOB,ETI,Sostenibilidad Estrategias Infraestructura Digital,20

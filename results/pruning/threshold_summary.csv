@@ -1,0 +1,4 @@
+threshold,kept_total,dropped_total,groups_merged,kept_FH,of_FH,kept_IDA,of_IDA,kept_GOB,of_GOB,kept_without_gaps
+0.8,78,48,31,29,49,24,40,25,37,58
+0.85,91,35,22,35,49,30,40,26,37,61
+0.9,106,20,13,44,49,33,40,29,37,70

@@ -1,0 +1,127 @@
+code,dim_code,subdim_code,dim,subdim,indicador,subindicador,n_observed,n_imputed,n_unique_observed,categorical,imputed_countries
+FH.INF.01,FH,INF,FH,Infraestructura,Conectividad,Cobertura 5G,19,1,13,False,CUB
+FH.INF.02,FH,INF,FH,Infraestructura,Conectividad,Cobertura Redes Móviles (%) Mínimo 3G,20,0,16,False,
+FH.INF.03,FH,INF,FH,Infraestructura,Conectividad,Velocidad Descarga Móvil,15,5,15,False,"CUB, JAM, DOM, TTO, URY"
+FH.INF.04,FH,INF,FH,Infraestructura,Conectividad,Velocidad de Descarga Banda Ancha Fija (Mbps),20,0,20,False,
+FH.INF.05,FH,INF,FH,Infraestructura,Conectividad,Latencia Fija (ms),20,0,8,False,
+FH.INF.06,FH,INF,FH,Infraestructura,Conectividad,Latencia Móvil (ms),15,5,8,False,"CUB, JAM, DOM, TTO, URY"
+FH.INF.07,FH,INF,FH,Infraestructura,Conectividad,Suscripciones Activas de Banda Ancha Móvil (cada 100 personas),20,0,20,False,
+FH.INF.08,FH,INF,FH,Infraestructura,Conectividad,Suscripciones Activas de Banda Ancha Fija (cada 100 personas),20,0,20,False,
+FH.INF.09,FH,INF,FH,Infraestructura,Conectividad,Hogares con Acceso a Internet (%),20,0,20,False,
+FH.INF.10,FH,INF,FH,Infraestructura,Conectividad,Población que usa Internet (%),20,0,20,False,
+FH.INF.11,FH,INF,FH,Infraestructura,Conectividad,Mujeres que usan Internet (%),20,0,20,False,
+FH.INF.12,FH,INF,FH,Infraestructura,Conectividad,Cesta Básica de Banda Ancha Fija (% de INB Percapita),20,0,20,False,
+FH.INF.13,FH,INF,FH,Infraestructura,Conectividad,Cesta Básica de Banda Ancha Móvil (% de INB Percapita),20,0,20,False,
+FH.INF.14,FH,INF,FH,Infraestructura,Dispositivos,Hogares que tienen Computadora (%),20,0,20,False,
+FH.INF.15,FH,INF,FH,Infraestructura,Dispositivos,Asequibilidad de Teléfono Inteligente,12,8,12,False,"BOL, CRI, CUB, SLV, HND, JAM, PAN, TTO"
+FH.INF.16,FH,INF,FH,Infraestructura,Dispositivos,Asequibilidad de Computador,13,7,13,False,"BOL, CUB, HND, JAM, PAN, DOM, TTO"
+FH.INF.17,FH,INF,FH,Infraestructura,Dispositivos,Adopción IPv6 (% usuarios),20,0,20,False,
+FH.INF.18,FH,INF,FH,Infraestructura,Cómputo,Capacidad de GPUs,20,0,10,False,
+FH.INF.19,FH,INF,FH,Infraestructura,Cómputo,Memoria de GPUs,20,0,10,False,
+FH.INF.20,FH,INF,FH,Infraestructura,Cómputo,Número de GPUs,20,0,10,False,
+FH.INF.21,FH,INF,FH,Infraestructura,Cómputo,Capacidad de CPUs,20,0,10,False,
+FH.INF.22,FH,INF,FH,Infraestructura,Servicios Digitales Avanzados,Procesamiento y Almacenamiento de Datos (Nube),12,8,10,False,"CUB, SLV, GTM, JAM, PAN, PRY, TTO, VEN"
+FH.INF.23,FH,INF,FH,Infraestructura,Servicios Digitales Avanzados,Centro de Datos Certificados (Cantidad/M. hab.),20,0,13,False,
+FH.INF.24,FH,INF,FH,Infraestructura,Servicios Digitales Avanzados,Servidores de Internet Seguros (por millón de habitantes),20,0,20,False,
+FH.INF.25,FH,INF,FH,Infraestructura,Servicios Digitales Avanzados,IXP (Índice de interconexión relativa),18,2,18,False,"JAM, URY"
+FH.INF.26,FH,INF,FH,Infraestructura,Servicios Digitales Avanzados,Canasta Básica de IA,19,1,13,False,CUB
+FH.DAT.01,FH,DAT,FH,Datos,Barómetro de Datos,Disponibilidad Barómetro de Datos,18,2,18,False,"CUB, VEN"
+FH.DAT.02,FH,DAT,FH,Datos,Barómetro de Datos,Capacidad Barómetro de Datos,18,2,18,False,"CUB, VEN"
+FH.DAT.03,FH,DAT,FH,Datos,Barómetro de Datos,Gobernanza Barómetro de Datos,18,2,18,False,"CUB, VEN"
+FH.DAT.04,FH,DAT,FH,Datos,Desempeño Estadístico,SPI Uso de Datos,20,0,7,False,
+FH.DAT.05,FH,DAT,FH,Datos,Desempeño Estadístico,SPI Servicios de Datos,19,1,17,False,CUB
+FH.DAT.06,FH,DAT,FH,Datos,Desempeño Estadístico,SPI Productos de Datos,20,0,20,False,
+FH.DAT.07,FH,DAT,FH,Datos,Desempeño Estadístico,SPI Fuentes de Datos,19,1,19,False,CUB
+FH.DAT.08,FH,DAT,FH,Datos,Desempeño Estadístico,SPI Infraestructura de Datos,19,1,11,False,CUB
+FH.TAL.01,FH,TAL,FH,Talento Humano,Alfabetización en IA,Educación Temprana en Ciencias (Puntaje Promedio),14,6,14,False,"BOL, CUB, ECU, HND, TTO, VEN"
+FH.TAL.02,FH,TAL,FH,Talento Humano,Alfabetización en IA,Educación Temprana en Ciencias Niñas y Adolescentes (Puntaje Promedio),14,6,14,False,"BOL, CUB, ECU, HND, TTO, VEN"
+FH.TAL.03,FH,TAL,FH,Talento Humano,Alfabetización en IA,Educación Temprana en IA (Categórico),20,0,2,True,
+FH.TAL.04,FH,TAL,FH,Talento Humano,Alfabetización en IA,Habilidad en Inglés (Puntaje),18,2,18,False,"JAM, TTO"
+FH.TAL.05,FH,TAL,FH,Talento Humano,Alfabetización en IA,Habilidad de Inglés en Mujeres (Puntaje),18,2,17,False,"JAM, TTO"
+FH.TAL.06,FH,TAL,FH,Talento Humano,Formación Profesional en IA,Concentración Habilidades IA Ingeniería,16,4,16,False,"CUB, SLV, HND, PRY"
+FH.TAL.07,FH,TAL,FH,Talento Humano,Formación Profesional en IA,Concentración Habilidades IA Ingeniería Mujeres,15,5,15,False,"CUB, SLV, HND, PRY, TTO"
+FH.TAL.08,FH,TAL,FH,Talento Humano,Formación Profesional en IA,Concentración Talento Ciberseguridad,15,5,15,False,"CUB, SLV, HND, PRY, TTO"
+FH.TAL.09,FH,TAL,FH,Talento Humano,Formación Profesional en IA,Talento Disponible para Datacenters,16,4,16,False,"CUB, SLV, HND, PRY"
+FH.TAL.10,FH,TAL,FH,Talento Humano,Formación Profesional en IA,Licenciados STEM (%),16,4,16,False,"BOL, JAM, PRY, VEN"
+FH.TAL.11,FH,TAL,FH,Talento Humano,Formación Profesional en IA,Demanda de Cursos de IA,20,0,20,False,
+FH.TAL.12,FH,TAL,FH,Talento Humano,Talento Humano Avanzado,Programas de Magíster en IA en Universidades Ranking QS (Cantidad por M. de hab.),20,0,7,False,
+FH.TAL.13,FH,TAL,FH,Talento Humano,Talento Humano Avanzado,Programas de PhD en IA en Universidades Ranking QS (Cantidad por M. de hab.),20,0,7,False,
+FH.TAL.14,FH,TAL,FH,Talento Humano,Talento Humano Avanzado,Programas de Magíster en IA en Universidades Acreditadas (Cantidad por M. de hab.),20,0,14,False,
+FH.TAL.15,FH,TAL,FH,Talento Humano,Talento Humano Avanzado,Programas de PhD en IA en Universidades Acreditadas (Cantidad por M. de hab.),20,0,9,False,
+IDA.INV.01,IDA,INV,I+D+A,Investigación,Investigación,Publicaciones en IA,20,0,19,False,
+IDA.INV.02,IDA,INV,I+D+A,Investigación,Investigación,Investigadores activos en IA,20,0,20,False,
+IDA.INV.03,IDA,INV,I+D+A,Investigación,Investigación,Productividad Investigadores en IA,20,0,20,False,
+IDA.INV.04,IDA,INV,I+D+A,Investigación,Investigación,Productividad Investigadoras en IA,20,0,20,False,
+IDA.INV.05,IDA,INV,I+D+A,Investigación,Investigación,Presencia de Centros de Investigación de IA,20,0,8,False,
+IDA.INV.06,IDA,INV,I+D+A,Investigación,Investigación,Proporción de Autoras en IA,20,0,20,False,
+IDA.INV.07,IDA,INV,I+D+A,Investigación,Investigación,Investigación Consistente en IA,20,0,20,False,
+IDA.INV.08,IDA,INV,I+D+A,Investigación,Investigación,Investigación Consistente Autoras en IA,20,0,16,False,
+IDA.INV.09,IDA,INV,I+D+A,Investigación,Investigación,Participación en Main Tracks,20,0,8,False,
+IDA.INV.10,IDA,INV,I+D+A,Investigación,Investigación,Participación en Side Tracks,20,0,10,False,
+IDA.INV.11,IDA,INV,I+D+A,Investigación,Investigación,Participación Autoras en Main Tracks,20,0,5,False,
+IDA.INV.12,IDA,INV,I+D+A,Investigación,Investigación,Participación Autoras en Side Tracks,20,0,8,False,
+IDA.IDI.01,IDA,IDI,I+D+A,I+D,Innovación,Número de Inversiones Privadas,18,2,15,False,"BOL, CUB"
+IDA.IDI.02,IDA,IDI,I+D+A,I+D,Innovación,Valor Total Estimado Inversión Privada,18,2,13,False,"BOL, CUB"
+IDA.IDI.03,IDA,IDI,I+D+A,I+D,Innovación,Empresas de IA,19,1,18,False,CUB
+IDA.IDI.04,IDA,IDI,I+D+A,I+D,Innovación,Empresas Unicornio,20,0,6,False,
+IDA.IDI.05,IDA,IDI,I+D+A,I+D,Innovación,Gasto en I+D en proporción al PIB,16,4,16,False,"ECU, JAM, DOM, VEN"
+IDA.IDI.06,IDA,IDI,I+D+A,I+D,Innovación,Desarrollo de Aplicaciones,19,1,19,False,CUB
+IDA.IDI.07,IDA,IDI,I+D+A,I+D,Innovación,Entorno Emprendedor,11,9,7,False,"BOL, COL, CUB, HND, JAM, PAN, PRY, DOM, TTO"
+IDA.IDI.08,IDA,IDI,I+D+A,I+D,Desarrollo,Productividad Open Source,20,0,20,False,
+IDA.IDI.09,IDA,IDI,I+D+A,I+D,Desarrollo,Calidad Open Source,20,0,20,False,
+IDA.IDI.10,IDA,IDI,I+D+A,I+D,Desarrollo,Proporción de Desarrolladores de Software,20,0,20,False,
+IDA.IDI.11,IDA,IDI,I+D+A,I+D,Desarrollo,Relevancia de Producción de Software,20,0,20,False,
+IDA.IDI.12,IDA,IDI,I+D+A,I+D,Desarrollo,Cantidad de Familias de Patentes en IA,20,0,14,False,
+IDA.IDI.13,IDA,IDI,I+D+A,I+D,Desarrollo,Cantidad de Aplicantes de Patentes en IA,20,0,15,False,
+IDA.IDI.14,IDA,IDI,I+D+A,I+D,Desarrollo,Cantidad de Inventores de Patentes en IA,20,0,18,False,
+IDA.ADO.01,IDA,ADO,I+D+A,Adopción,Sofisticación Productiva,Trabajadores en el Sector de Alta Tecnología,16,4,16,False,"CUB, JAM, TTO, VEN"
+IDA.ADO.02,IDA,ADO,I+D+A,Adopción,Sofisticación Productiva,Fabricación de Tecnología Mediana y Alta,12,8,12,False,"CUB, SLV, GTM, HND, JAM, DOM, TTO, VEN"
+IDA.ADO.03,IDA,ADO,I+D+A,Adopción,Sofisticación Productiva,Proporción del Valor Añadido de Fabricación de Tecnología Mediana y Alta en el Valor Añadido Total,12,8,12,False,"CUB, SLV, GTM, HND, JAM, DOM, TTO, VEN"
+IDA.ADO.04,IDA,ADO,I+D+A,Adopción,Industria,Adopción IA en Grandes Empresas,20,0,20,False,
+IDA.ADO.05,IDA,ADO,I+D+A,Adopción,Industria,Adopción IA en Medianas Empresas,20,0,20,False,
+IDA.ADO.06,IDA,ADO,I+D+A,Adopción,Industria,Adopción IA en Pequeñas Empresas,20,0,20,False,
+IDA.ADO.07,IDA,ADO,I+D+A,Adopción,Gobierno,Gobierno Digital,20,0,20,False,
+IDA.ADO.08,IDA,ADO,I+D+A,Adopción,Gobierno,Uso de IA en Participación Ciudadana,20,0,11,False,
+IDA.ADO.09,IDA,ADO,I+D+A,Adopción,Gobierno,Desarrollo de IA para Participación Ciudadana,20,0,10,False,
+IDA.ADO.10,IDA,ADO,I+D+A,Adopción,IA Generativa,Usuarios Activos de IAGen,14,6,14,False,"BOL, CUB, HND, JAM, PRY, TTO"
+IDA.ADO.11,IDA,ADO,I+D+A,Adopción,IA Generativa,Usuarios Activos IA Generativa Web,19,1,19,False,CUB
+IDA.ADO.12,IDA,ADO,I+D+A,Adopción,IA Generativa,AI User Share Microsoft,19,1,19,False,TTO
+IDA.ADO.13,IDA,ADO,I+D+A,Adopción,Tráfico IA Web,Intensidad Uso IA Web,19,1,19,False,CUB
+IDA.ADO.14,IDA,ADO,I+D+A,Adopción,Tráfico IA Web,Intensidad Uso IA Avanzada Web,19,1,19,False,CUB
+GOB.VIS.01,GOB,VIS,Gobernanza,Visión e Institucionalidad,Estrategia de IA,Existencia de la Estrategia,20,0,3,True,
+GOB.VIS.02,GOB,VIS,Gobernanza,Visión e Institucionalidad,Estrategia de IA,Antigüedad Estrategia de IA,20,0,5,False,
+GOB.VIS.03,GOB,VIS,Gobernanza,Visión e Institucionalidad,Mecanismos de implementación de la estrategia,Mecanismos de Evaluación,20,0,3,True,
+GOB.VIS.04,GOB,VIS,Gobernanza,Visión e Institucionalidad,Mecanismos de implementación de la estrategia,Presupuesto,20,0,3,True,
+GOB.VIS.05,GOB,VIS,Gobernanza,Visión e Institucionalidad,Mecanismos de implementación de la estrategia,Hoja de Ruta,20,0,3,True,
+GOB.VIS.06,GOB,VIS,Gobernanza,Visión e Institucionalidad,Tópicos de la Estrategia,Ética y gobernanza de la IA,20,0,2,True,
+GOB.VIS.07,GOB,VIS,Gobernanza,Visión e Institucionalidad,Tópicos de la Estrategia,Infraestructura y Tecnología de la IA,20,0,2,True,
+GOB.VIS.08,GOB,VIS,Gobernanza,Visión e Institucionalidad,Tópicos de la Estrategia,Desarrollo de Capacidades,20,0,2,True,
+GOB.VIS.09,GOB,VIS,Gobernanza,Visión e Institucionalidad,Tópicos de la Estrategia,Datos,20,0,2,True,
+GOB.VIS.10,GOB,VIS,Gobernanza,Visión e Institucionalidad,Tópicos de la Estrategia,Gobierno Digital Gob,20,0,2,True,
+GOB.VIS.11,GOB,VIS,Gobernanza,Visión e Institucionalidad,Tópicos de la Estrategia,Industria y Emprendimiento,20,0,2,True,
+GOB.VIS.12,GOB,VIS,Gobernanza,Visión e Institucionalidad,Tópicos de la Estrategia,I+D,20,0,3,True,
+GOB.VIS.13,GOB,VIS,Gobernanza,Visión e Institucionalidad,Tópicos de la Estrategia,Cooperación Regional e Internacional,20,0,3,True,
+GOB.VIS.14,GOB,VIS,Gobernanza,Visión e Institucionalidad,Tópicos de la Estrategia,Perspectiva de Género,20,0,3,True,
+GOB.VIS.15,GOB,VIS,Gobernanza,Visión e Institucionalidad,Tópicos de la Estrategia,Sostenibilidad de la Estrategia,20,0,3,True,
+GOB.VIS.16,GOB,VIS,Gobernanza,Visión e Institucionalidad,Involucramiento de actores,Participación ciudadana en la elaboración,20,0,3,True,
+GOB.VIS.17,GOB,VIS,Gobernanza,Visión e Institucionalidad,Involucramiento de actores,Metodología multistakeholder en la elaboración,20,0,3,True,
+GOB.VIS.18,GOB,VIS,Gobernanza,Visión e Institucionalidad,Involucramiento de actores,Metodología multistakeholder en la implementación,20,0,2,True,
+GOB.VIS.19,GOB,VIS,Gobernanza,Visión e Institucionalidad,Institucionalidad,Existencia de institucionalidad,20,0,2,True,
+GOB.VIS.20,GOB,VIS,Gobernanza,Visión e Institucionalidad,Institucionalidad,Mecanismos de coordinación interinstitucional,20,0,2,True,
+GOB.VIN.01,GOB,VIN,Gobernanza,Vinculación Internacional,Participación en Definición de Estándares,Participación en comités ISO (Comité ISO/IEC JTC 1/SC 42),20,0,3,True,
+GOB.VIN.02,GOB,VIN,Gobernanza,Vinculación Internacional,Participación en Definición de Estándares,Participación en comités ISO (ISO/IEC JTC 1/SC 27),20,0,3,True,
+GOB.VIN.03,GOB,VIN,Gobernanza,Vinculación Internacional,Participación en organismos internacionales,Partipación en acuerdos internacionales relacionados con IA,20,0,6,False,
+GOB.REG.01,GOB,REG,Gobernanza,Regulación,Regulación sobre IA,Iniciativa Legal,20,0,3,True,
+GOB.REG.02,GOB,REG,Gobernanza,Regulación,Regulación de datos personales,Existencia de una regulación de protección de datos personales,20,0,3,True,
+GOB.REG.03,GOB,REG,Gobernanza,Regulación,Regulación de datos personales,Existencia de institución encargada de la fiscalización de una regulación de protección de datos personales,20,0,2,True,
+GOB.ETI.01,GOB,ETI,Gobernanza,"IA Ética, Responsable y Segura",Ciberseguridad,Medidas Legales de Ciberseguridad,20,0,18,False,
+GOB.ETI.02,GOB,ETI,Gobernanza,"IA Ética, Responsable y Segura",Ciberseguridad,Medidas Técnicas de Ciberseguridad,20,0,18,False,
+GOB.ETI.03,GOB,ETI,Gobernanza,"IA Ética, Responsable y Segura",Ciberseguridad,Medidas Organizativas de Ciberseguridad,20,0,20,False,
+GOB.ETI.04,GOB,ETI,Gobernanza,"IA Ética, Responsable y Segura",Ciberseguridad,Desarrollo de Capacidades de Ciberseguridad,20,0,20,False,
+GOB.ETI.05,GOB,ETI,Gobernanza,"IA Ética, Responsable y Segura",Ciberseguridad,Cooperación en Ciberseguridad,20,0,15,False,
+GOB.ETI.06,GOB,ETI,Gobernanza,"IA Ética, Responsable y Segura",Ética y Seguridad,Protección de datos y privacidad GIRAI,17,3,8,False,"CUB, GTM, VEN"
+GOB.ETI.07,GOB,ETI,Gobernanza,"IA Ética, Responsable y Segura",Ética y Seguridad,"Seguridad, Precisión y Confiabilidad GIRAI",17,3,14,False,"CUB, GTM, VEN"
+GOB.ETI.08,GOB,ETI,Gobernanza,"IA Ética, Responsable y Segura",Sustentabilidad,Centros de datos que cumplen con estándares de sustentabilidad,20,0,11,False,
+GOB.ETI.09,GOB,ETI,Gobernanza,"IA Ética, Responsable y Segura",Sustentabilidad,Energía Limpia y Asequible,18,2,18,False,"CUB, VEN"
+GOB.ETI.10,GOB,ETI,Gobernanza,"IA Ética, Responsable y Segura",Sustentabilidad,Proporción de Energías Renovables no Convencionales en la matriz energética,20,0,20,False,
+GOB.ETI.11,GOB,ETI,Gobernanza,"IA Ética, Responsable y Segura",Sustentabilidad,Sostenibilidad Estrategias Infraestructura Digital,20,0,5,False,

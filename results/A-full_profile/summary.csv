@@ -1,0 +1,7 @@
+,value
+n_countries,20.0
+n_subindicators,86.0
+pcs_retained,4.0
+k_chosen,2.0
+k_gap_rule,1.0
+silhouette_at_k,0.24138624770777004
